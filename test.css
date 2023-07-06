@@ -39,7 +39,7 @@
     color: rebeccapurple;
 } 
 .banner-img{
-    width: 500px;
+    width: 800px;
 }
 .banner-container{
     display: flex;
@@ -49,6 +49,50 @@
     align-items: center;
    background-image: url(./image/abstract-dark-background-with-line-grid-gradient-color-applicable-website-banner-poster-corporate-social-media-template-billboard-business-sign-video-film-in-channel-backdrop-techno-background-free-vector.jpg);
    color: aliceblue;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+
    
     
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    color: aliceblue;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    }
+.btn:hover{
+    color: cyan;
+    background-color: rgb(37, 35, 35);
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+
+}
+.about-title{
+    text-align: center;
+    padding: 20px;
+}
+.about-info{
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+    text-align: center;
+    align-items: center;
 }
